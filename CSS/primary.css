@@ -1,0 +1,94 @@
+
+/*Whole page*/
+html{
+    background-color: #0e0b26;
+    min-height: 100%;
+    position: relative;
+}
+/* header */
+.HdSec{
+    background: black;
+    border: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 15px 120px 2px;
+    color:#a239ca;
+    padding: 5px;
+}
+.HdSec img {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+h2 {
+    height: 10px;
+    text-align: right;
+    color: #dfdce3;
+}
+.title{
+    height: 50px;
+    margin-top: -14px;
+}
+#maintitle{
+	font-family: 'Genos', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+#subtitle{
+    font-family: 'Fleur De Leah', cursive;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+/* for paragraph or body */
+body {
+    margin: 0px;
+    margin-bottom: 11px;
+}
+#innerbody{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+}
+.category {
+    color: #dfdce3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 27px;
+    margin: 20px;
+}
+.flexBox {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 300px; */
+}
+.cat {
+    color: #dfdce3;
+    display: inline-block;
+    text-align: center;
+    background: #555555ad;
+    border: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px 2px;
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+    width: 130px;
+}
+form {
+    display: inline-block;
+}
+/* footer */
+.Footer{
+    color: #dfdce3;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+footer{
+    height: 40px;
+    margin-top: auto;
+}

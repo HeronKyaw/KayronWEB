@@ -1,0 +1,96 @@
+html{
+    background-color: #0e0b26;
+    min-height: 100%;
+    position: relative;
+}
+/* header */
+.HdSec{
+    background: black;
+    border: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 15px 120px 2px;
+    color:#a239ca;
+    padding: 5px;
+}
+.HdSec img {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+h2 {
+    height: 10px;
+    text-align: right;
+    color: #dfdce3;
+}
+.title{
+    height: 50px;
+    margin-top: -14px;
+}
+#maintitle{
+	font-family: 'Genos', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+#subtitle{
+    font-family: 'Fleur De Leah', cursive;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+/* body */
+body{
+    min-height: 89vh;
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+}
+.bodyPart {
+    background-color: #555555aa;
+    min-height: 470px;
+    display:inline-block;
+    width:70%;
+    margin:5% auto;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding:1em;
+    line-height:1.5em;
+    border:solid 5px rgb(211, 50, 50);
+}
+p, pre {
+    color: cyan;
+    font-family: 'Dongle', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+    color:aqua;
+    letter-spacing: 4px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+/* footer  */
+footer{
+    height: 40px;
+    margin-top: auto;
+}
+.Footer{
+    color: #dfdce3;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+button{
+    text-align: center;
+    color: #dfdce3;
+    background: #555555ad;
+    border-color: #a239ca;
+    border-radius: 17%;
+    width: 100px;
+    padding: 10px;
+}
+#backBtn {
+    text-align: center;
+}
